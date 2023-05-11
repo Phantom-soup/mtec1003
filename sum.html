@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum</title>
+</head>
+<body>
+    <script>
+        var sum = 0;
+        var userstring;
+        var usernum;
+
+        for (i = 0; i<=3; i++){
+            userstring = prompt("Number please"); // prompt the user at each repitition in loop
+            usernum = parseInt(userstring, 10);
+
+            sum = sum + usernum; // adds the current number to the sum
+            console.log("The current value of the sum is " + sum); // debug step
+        }
+
+        console.log("The sum of all 4 numbers is " + sum);
+
+    </script>
+</body>
+</html>
